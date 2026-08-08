@@ -1,4 +1,4 @@
-# paperlessAIProcessor
+# PaperlessAIProcessor
 
 Automatic document classification for [Paperless-ngx](https://docs.paperless-ngx.com/), powered by a local [Ollama](https://ollama.com/) LLM.
 

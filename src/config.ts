@@ -11,8 +11,8 @@ const ConfigSchema = z.object({
   PAPERLESS_API_TOKEN: z.string().min(1),
 
   OLLAMA_BASE_URL: z.string().url(),
-  OLLAMA_MODEL: z.string().min(1),
-  OLLAMA_EMBED_MODEL: z.string().min(1),
+  OLLAMA_MODEL: z.string().min(1).default("gemma4"),
+  OLLAMA_EMBED_MODEL: z.string().min(1).default("nomic-embed-text"),
 
   TAG_FILTER: z
     .string()

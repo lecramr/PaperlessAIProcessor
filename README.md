@@ -32,8 +32,8 @@ Edit `.env`:
 | `PAPERLESS_BASE_URL` | Base URL of your Paperless-ngx instance | — |
 | `PAPERLESS_API_TOKEN` | Paperless API token | — |
 | `OLLAMA_BASE_URL` | Base URL of your Ollama instance | — |
-| `OLLAMA_MODEL` | Chat model used for classification | — |
-| `OLLAMA_EMBED_MODEL` | Embedding model used for candidate matching | — |
+| `OLLAMA_MODEL` | Chat model used for classification | `gemma4` |
+| `OLLAMA_EMBED_MODEL` | Embedding model used for candidate matching | `nomic-embed-text` |
 | `TAG_FILTER` | Tag(s) marking documents to process; first tag is removed on success (`;`-separated) | `to-ai` |
 | `PROCESSED_TAG` | Tag applied after successful processing | `ai-processed` |
 | `CANDIDATE_LIMIT` | Max tag/correspondent candidates shortlisted per document | `50` |

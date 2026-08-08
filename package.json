@@ -1,5 +1,5 @@
 {
-  "name": "auto-paper",
+  "name": "paperless-ai-processor",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "type": "module",
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "dotenv": "^17.4.2",
